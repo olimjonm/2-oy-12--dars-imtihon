@@ -1,0 +1,161 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-condensed-v27-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v32-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v32-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  height: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #ff7500;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 203px;
+}
+
+.nav li a {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  background-color: #ff7500;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.benefit h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  margin-top: 32px;
+}
+
+.benefit p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin-top: 12px;
+}
+
+.main3 {
+  background-color: #252420;
+}
+
+.kids-books-content {
+  display: flex;
+}
+
+.container4 {
+  margin-top: 160px;
+}
+
+.footer-img {
+  display: flex;
+  align-items: center;
+  gap: 768px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #25242080;
+}
+
+.text-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 108px;
+  margin-top: 64px;
+}
+
+.text2 {
+  width: 224px;
+}
+
+.text2 p {
+  margin-top: 16px;
+}
